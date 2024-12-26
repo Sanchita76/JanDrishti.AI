@@ -3,15 +3,18 @@ from langchain.document_loaders import UnstructuredURLLoader
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import FAISS
+from dotenv import load_dotenv
 import openai
 import pickle
 import os
-from configparser import ConfigParser
 
-# Load OpenAI API Key from config file
-config = ConfigParser()
-config.read(".config")
-openai.api_key = config.get("openai", "api_key")
+# Load OpenAI API key from environment variable
+load_dotenv()
+openai.api_key = os.getenv("OPENAI_API_KEY")
+
+if not openai.api_key:
+    st.error("OpenAI API key not found. Please set the 'OPENAI_API_KEY' environment variable.")
+    st.stop()
 
 # Initialize Streamlit App
 st.set_page_config(page_title="Automated Scheme Research Tool", layout="wide")
