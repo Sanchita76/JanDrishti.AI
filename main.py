@@ -19,7 +19,7 @@ st.title("Automated Scheme Research Tool")
 
 # Sidebar Inputs
 st.sidebar.header("Input URLs")
-url_input = st.sidebar.text_area("Enter URLs (one per line):", placeholder="https://example.com/article1\nhttps://example.com/article2")
+url_input = st.sidebar.text_area("Enter URLs (one per line):", placeholder="Paste your article URLs here, one per line")
 process_button = st.sidebar.button("Process URLs")
 
 st.sidebar.header("Ask Questions")
