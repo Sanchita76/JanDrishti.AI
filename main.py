@@ -12,6 +12,7 @@ import os
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
+
 if not openai.api_key:
     st.error("OpenAI API key not found. Please set the 'OPENAI_API_KEY' environment variable.")
     st.stop()
@@ -53,6 +54,11 @@ if process_button:
             st.info(f"Processing {len(urls)} URLs...")
             loader = UnstructuredURLLoader(urls)
             docs = loader.load()
+
+            # Add metadata (source URL) to each document
+            for idx, doc in enumerate(docs):
+                doc.metadata = {"source": urls[idx]}  # Attach the corresponding URL to metadata
+
             st.success(f"Successfully loaded {len(docs)} articles!")
 
             # Split articles into manageable chunks
@@ -84,10 +90,11 @@ if ask_button:
             for idx, doc in enumerate(results):
                 st.write(f"**Result {idx + 1}:**")
                 st.write(f"- **Content:** {doc.page_content}")
-                st.write(f"- **Source URL:** {doc.metadata.get('source', 'N/A')}")
+                st.write(f"- **Source URL:** {doc.metadata.get('source', 'N/A')}")  # This now works
                 st.markdown("---")
         except Exception as e:
             st.error(f"An error occurred while querying: {str(e)}")
+
 
 # Display a warning if no FAISS index exists
 if not faiss_index and not process_button:
