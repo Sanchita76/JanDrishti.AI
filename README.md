@@ -22,6 +22,6 @@ indexes them using FAISS.<br>
 ● The FAISS index is saved in a local file path in pickle format for future use.<br>
 ● Users can ask a question and receive an answer based on the news articles,
 along with the URL and its summary.<br>
-## Strea=mlit Application
+## Streamlit Application
 ![image](https://github.com/user-attachments/assets/225bbbb4-bdc9-4230-9a2e-643f8920a5b1)
 
