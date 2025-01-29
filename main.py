@@ -12,10 +12,11 @@ import os
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
-
 if not openai.api_key:
     st.error("OpenAI API key not found. Please set the 'OPENAI_API_KEY' environment variable.")
     st.stop()
+else:
+    print(f"API Key: {openai.api_key}... (hidden for security)")
 
 # Initialize Streamlit App
 st.set_page_config(page_title="Automated Scheme Research Tool", layout="wide")
