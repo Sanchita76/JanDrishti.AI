@@ -1,10 +1,7 @@
 # JanDrishti : Government Scheme-Research-Application
 ## Overview
 The **Automated Scheme Research Tool** is a web application that processes scheme-related articles, generates relevant summaries, and enables users to ask questions based on the content of the articles. It leverages the power of LangChain, OpenAI embeddings, FAISS for similarity search, and Streamlit for a user-friendly interface. 
-<<<<<<< HEAD
-=======
 
->>>>>>> c027de184ea5d46dbf90a9a87e06ce40078a02a6
 ## Key Features
 - **URL Input**: Users can input URLs of scheme articles or upload text files containing URLs.
 - **Content Processing**: The tool uses LangChain's UnstructuredURLLoader to fetch article content and process it into manageable chunks.
@@ -15,10 +12,7 @@ The **Automated Scheme Research Tool** is a web application that processes schem
   - Documents Required
 - **Similarity Search**: Using OpenAI embeddings and FAISS, users can ask questions, and the tool retrieves relevant answers along with source URLs and summaries.
 - **Persistent Storage**: The FAISS index is stored locally in a pickle file for future use.
-<<<<<<< HEAD
-=======
 
->>>>>>> c027de184ea5d46dbf90a9a87e06ce40078a02a6
 ## Tech Stack
 - **Python**: Core programming language.
 - **Streamlit**: Framework for building the web application.
@@ -27,10 +21,7 @@ The **Automated Scheme Research Tool** is a web application that processes schem
 - **FAISS**: For efficient similarity search and fast information retrieval.
 - **Unstructured**: For loading article content from URLs.
 - **configparser**: To securely store and load the OpenAI API key.
-<<<<<<< HEAD
-=======
 
->>>>>>> c027de184ea5d46dbf90a9a87e06ce40078a02a6
 ## Setup Instructions
 ### Prerequisites
 Ensure you have Python 3.x installed on your machine. Additionally, you will need an OpenAI API key. Follow the steps below to set up the project:
@@ -67,8 +58,6 @@ Click "Ask Question", and the tool will display relevant answers along with the 
 Feel free to fork the repository and submit pull requests. Any contributions are welcome!
 
 ## License
-<<<<<<< HEAD
 This project is licensed under the MIT License - see the LICENSE file for details.
-=======
 This project is licensed under the MIT License - see the LICENSE file for details.
->>>>>>> c027de184ea5d46dbf90a9a87e06ce40078a02a6
+
