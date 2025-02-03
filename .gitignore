@@ -1,4 +1,2 @@
-# Ignore the .env file
 .env
-#Ignore test.py
 test.py
