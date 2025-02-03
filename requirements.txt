@@ -4,3 +4,4 @@ openai
 faiss-cpu
 unstructured
 configparser
+fpdf

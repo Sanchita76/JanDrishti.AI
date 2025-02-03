@@ -44,7 +44,7 @@ api_key = YOUR_OPENAI_API_KEY
 |-- faiss_store_openai.pkl      # FAISS index file (generated after processing URLs)<br>
 
 ## Streamlit Application
-![image](https://github.com/user-attachments/assets/225bbbb4-bdc9-4230-9a2e-643f8920a5b1)
+
 ## How to Use
 Process URLs:
 Input the URLs of the scheme articles in the sidebar.
