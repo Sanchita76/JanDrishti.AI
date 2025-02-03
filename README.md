@@ -26,7 +26,7 @@ The **Automated Scheme Research Tool** is a web application that processes schem
 ### Prerequisites
 Ensure you have Python 3.x installed on your machine. Additionally, you will need an OpenAI API key. Follow the steps below to set up the project:
 1. Clone the repository:
-   git clone https://github.com/Sanchita76/JanDrishti-Tool.git
+   git clone https://github.com/Sanchita76/JanDrishti-Tool.git<br>
    cd JanDrishti
 2. Install the required dependencies:
    pip install -r requirements.txt
