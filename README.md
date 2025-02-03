@@ -1,4 +1,4 @@
-# JanDrishti : Government Scheme-Research-Application 👨‍👩‍👦‍👦
+# JanDrishti(PublicPulse) : Government Scheme-Research-Application 👨‍👩‍👦‍👦
 ## Overview 📈 
 JanDrishti is an **AI-powered research assistant** that empowers citizens to make informed decisions on government schemes and policies, **achieving an impressive efficiency rate of 85% reduction in research time, 90% accuracy in providing relevant information, and 95% citizen satisfaction.** Leveraging cutting-edge **natural language processing (NLP), machine learning (ML), and information retrieval (IR) techniques,** JanDrishti provides personalized insights, effortless research, and informed decision-making capabilities, bridging the gap between citizens and policymakers while promoting transparency and accountability.. 
 
@@ -105,4 +105,6 @@ Feel free to fork the repository and submit pull requests. Any contributions are
 ## License📝
 This project is licensed under the MIT License - see the LICENSE file for details.
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Try it ➳
 
