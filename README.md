@@ -1,4 +1,6 @@
 # JanDrishti(PublicPulse) : Government Scheme-Research-Application 👨‍👩‍👦‍👦
+  <div align="center"> New Era of Policy Research Analysis </div>
+
 ## Overview 📈 
 JanDrishti is an **AI-powered research assistant** that empowers citizens to make informed decisions on government schemes and policies, **achieving an impressive efficiency rate of 85% reduction in research time, 90% accuracy in providing relevant information, and 95% citizen satisfaction.** Leveraging cutting-edge **natural language processing (NLP), machine learning (ML), and information retrieval (IR) techniques,** JanDrishti provides personalized insights, effortless research, and informed decision-making capabilities, bridging the gap between citizens and policymakers while promoting transparency and accountability.. 
 
@@ -8,7 +10,7 @@ JanDrishti is an **AI-powered research assistant** that empowers citizens to mak
 - Description: Users can input URLs of scheme articles or upload text files containing URLs. LangChain's UnstructuredURLLoader fetches the article content and processes it into manageable chunks.
 - Benefits: Enables seamless processing of unstructured data from various sources.
 
-###👾 **AI-driven Summarization**🤖
+### **AI-driven Summarization**🤖👾
 - Technologies: Natural Language Processing (NLP), Machine Learning (ML)
 - Description: The tool generates summaries for key criteria such as Scheme Benefits, Application Process, Eligibility, and Required Documents. NLP and ML algorithms analyze the content and extract relevant information.
 - Benefits: Provides concise and accurate summaries, saving users time and effort.
